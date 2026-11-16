@@ -1,18 +1,23 @@
 ---
 import '../styles/global.css';
+import Mark from '../components/Mark.astro';
 
 const { frontmatter = {}, title: propTitle, description: propDescription } = Astro.props;
 const title = propTitle ?? frontmatter.title;
-const description = propDescription ?? frontmatter.description ?? 'Navigate by Conviction — a philosophy and practical tools for product work.';
+const description =
+  propDescription ??
+  frontmatter.description ??
+  'Navigate by Conviction: a philosophy for teams that navigate together, by Hans Carlson.';
 const pageTitle = title ? `${title} · Pilgrim Product Work` : 'Pilgrim Product Work';
 
 const nav = [
   { href: '/philosophy/', label: 'Philosophy' },
+  { href: '/framework/', label: 'Framework' },
   { href: '/tools/', label: 'Tools' },
-  { href: '/writing/', label: 'Writing' },
   { href: '/about/', label: 'About' },
 ];
 const path = Astro.url.pathname;
+const isHome = path === '/';
 ---
 <!doctype html>
 <html lang="en">
@@ -21,25 +26,32 @@ const path = Astro.url.pathname;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={new URL(path, Astro.site)} />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
+    <meta property="og:url" content={new URL(path, Astro.site)} />
   </head>
   <body>
     <header class="site-header">
-      <a class="wordmark" href="/">Pilgrim Product Work</a>
-      <nav>
+      <a class="wordmark" href="/" aria-label="Pilgrim Product Work, home">
+        <Mark size={30} />
+        <span>Pilgrim Product Work</span>
+      </a>
+      <nav aria-label="Main">
         {nav.map((item) => (
           <a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>{item.label}</a>
         ))}
       </nav>
     </header>
     <main>
-      {title && path !== '/' && <h1>{title}</h1>}
+      {title && !isHome && <h1>{title}</h1>}
       <slot />
     </main>
     <footer class="site-footer">
-      <p>© {new Date().getFullYear()} Pilgrim Product Work AB</p>
+      <p>© {new Date().getFullYear()} Pilgrim Product Work AB · Hans Carlson</p>
     </footer>
   </body>
 </html>
