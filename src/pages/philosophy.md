@@ -16,13 +16,13 @@ The drift happens quietly. Not because teams lack talent. Not because they don�
 
 The result is a team that moves — but not together. Every crossroads becomes a negotiation. Every decision waits for someone with enough context to make the call. And the organization keeps stopping to plan, align, and restart — mistaking the pause for the work.
 
-<p class="pull">We believe there is a better way. It starts with four convictions.</p>
+<p class="pull">I believe there is a better way. It starts with four convictions.</p>
 
 <p class="eyebrow">Conviction One</p>
 
 ## Alignment is a movement, not a moment
 
-Most organizations treat alignment as something you achieve — a strategy is shared, and now everyone is aligned. We believe that is a category error. Alignment isn’t a state. It’s a continuous movement. A team that genuinely moves as one doesn’t do so because they read the same document. They do so because they share a deep enough understanding of who they are and what they believe to navigate independently — and pull each other in the same direction when things get uncertain. You cannot communicate your way to alignment. You have to build it, together, over time.
+Most organizations treat alignment as something you achieve — a strategy is shared, and now everyone is aligned. I believe that is a category error. Alignment isn’t a state. It’s a continuous movement. A team that genuinely moves as one doesn’t do so because they read the same document. They do so because they share a deep enough understanding of who they are and what they believe to navigate independently — and pull each other in the same direction when things get uncertain. You cannot communicate your way to alignment. You have to build it, together, over time.
 
 <p class="eyebrow">Conviction Two</p>
 
@@ -34,19 +34,19 @@ In most teams, conviction lives in one place — the product manager, the CPO, t
 
 ## Movement is the norm. Stopping is the cost.
 
-Most product organizations treat planning as the default and movement as something you earn once planning is done. We believe it is the other way around. Momentum is the default. Stopping requires a reason — and carries a cost. Make assumptions. Stay in motion. Gather learning along the way. The goal is not the perfect process for learning — it is to keep moving while learning. Workshops that pause everything to produce a new plan are not strategy. They are expensive stops that feel like progress.
+Most product organizations treat planning as the default and movement as something you earn once planning is done. I believe it is the other way around. Momentum is the default. Stopping requires a reason — and carries a cost. Make assumptions. Stay in motion. Gather learning along the way. The goal is not the perfect process for learning — it is to keep moving while learning. Workshops that pause everything to produce a new plan are not strategy. They are expensive stops that feel like progress.
 
 <p class="eyebrow">Conviction Four</p>
 
 ## Enable the conditions. Don’t deliver the answer.
 
-The instinct of most product leaders is to carry the context, make the call, and communicate the decision. We believe this instinct — however well-intentioned — is the root of the problem. Alignment cannot be handed down. It has to be grown. The role of structure, tools, and leadership is not to produce better artifacts that people should read. It is to create the conditions in which a team builds shared conviction naturally — through their daily work, through real decisions, through the accumulation of understanding over time.
+The instinct of most product leaders is to carry the context, make the call, and communicate the decision. I believe this instinct — however well-intentioned — is the root of the problem. Alignment cannot be handed down. It has to be grown. The role of structure, tools, and leadership is not to produce better artifacts that people should read. It is to create the conditions in which a team builds shared conviction naturally — through their daily work, through real decisions, through the accumulation of understanding over time.
 
 ---
 
 Conviction is not above strategy. It is beneath it — the foundation that makes strategy something a whole team can actually use.
 
-This is what we mean by Navigate by Conviction. Not a philosophy for the few at the top. A way of building teams where the understanding of who we are and where we’re going is genuinely shared — distributed deeply enough that every person can navigate, contribute, and move forward without waiting for permission.
+This is what I mean by Navigate by Conviction. Not a philosophy for the few at the top. A way of building teams where the understanding of who we are and where we’re going is genuinely shared — distributed deeply enough that every person can navigate, contribute, and move forward without waiting for permission.
 
 That kind of team doesn’t need to stop at every crossroads. They already know which way to go.
 
